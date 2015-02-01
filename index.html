@@ -1,1 +1,13 @@
-Hello World!
+#include <stdio.h>
+  #define string 256
+  #define buff 156
+  main()
+  {
+     char string[string];
+     char buffer[buff];
+     printf("Enter a phrase\n");
+     fgets(buffer,buff,stdin);
+     sscanf(buffer,"%s",&string);
+     printf("You entered %s!\n",string);
+  }
+</stdio>
